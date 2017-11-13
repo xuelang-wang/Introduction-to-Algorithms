@@ -13,5 +13,98 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="资源文件\chapter32">
+      <UniqueIdentifier>{6bfde9ae-bf68-4510-b9d3-ac73b1b09dd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ASP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Greedy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="num_theory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RBT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SSP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="string_match.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ASP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SSP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="chapter32\repo\a.png">
+      <Filter>资源文件\chapter32</Filter>
+    </Image>
+    <Image Include="chapter32\repo\b.png">
+      <Filter>资源文件\chapter32</Filter>
+    </Image>
+    <Image Include="chapter32\repo\c.png">
+      <Filter>资源文件\chapter32</Filter>
+    </Image>
+    <Image Include="chapter32\repo\d.png">
+      <Filter>资源文件\chapter32</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chapter32\chapter32_KMP.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="chapter32\repo\绘图1.vsd">
+      <Filter>资源文件\chapter32</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\README.md" />
   </ItemGroup>
 </Project>

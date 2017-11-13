@@ -75,6 +75,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <EnableModules>false</EnableModules>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -111,6 +113,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ASP.h" />
+    <ClInclude Include="BST.h" />
+    <ClInclude Include="CG.h" />
+    <ClInclude Include="DP.h" />
+    <ClInclude Include="graph.h" />
+    <ClInclude Include="Greedy.h" />
+    <ClInclude Include="MST.h" />
+    <ClInclude Include="num_theory.h" />
+    <ClInclude Include="OST.h" />
+    <ClInclude Include="RBT.h" />
+    <ClInclude Include="Sort.h" />
+    <ClInclude Include="SSP.h" />
+    <ClInclude Include="string_match.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ASP.cpp" />
+    <ClCompile Include="BST.cpp" />
+    <ClCompile Include="graph.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MST.cpp" />
+    <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="SSP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="chapter32\repo\a.png" />
+    <Image Include="chapter32\repo\b.png" />
+    <Image Include="chapter32\repo\c.png" />
+    <Image Include="chapter32\repo\d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+    <None Include="chapter32\chapter32_KMP.md" />
+    <None Include="chapter32\repo\绘图1.vsd" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
