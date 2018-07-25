@@ -1,5 +1,5 @@
 /*
- * ASP.cpp
+ * ASP.cpp    单源最短路
  *
  *  Created on: 2017年7月4日
  *      Author: xiaoquan
